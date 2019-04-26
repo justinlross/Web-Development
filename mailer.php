@@ -1,6 +1,6 @@
 <?php
  
-$youremail = "justinlawrencer@gmail.com";
+$youremail = "yourEmailAddress@email.com";
  
 @extract($_POST);
 $name = filter_var($name, FILTER_SANITIZE_STRING);
