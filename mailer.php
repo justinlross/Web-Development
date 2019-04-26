@@ -21,6 +21,6 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL) || ($phone != '')) {
     echo "Please enter a valid email address or phone number.";
 }
      
- 
+
  
 ?>
